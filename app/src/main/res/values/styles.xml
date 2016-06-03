@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="TWTheme" parent="Base.TWTheme"></style>
+
+    <style name="Base.TWTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue700</item>
+        <item name="colorPrimaryDark">@color/blue800</item>
+        <item name="colorAccent">@color/teal400</item>
+        <item name="colorControlNormal">@color/blue300</item>
+        <item name="colorControlActivated">@color/teal400</item>
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <item name="android:windowBackground">@color/gray50</item>
+        <item name="android:colorForeground">@color/gray400</item>
+    </style>
+
+    <style name="TWTheme.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog">
+
+    </style>
+
+
+</resources>
