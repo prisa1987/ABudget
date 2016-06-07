@@ -8,11 +8,12 @@ class AllBudgetsViewModel {
 
     val budgets: Observable<List<Budget>> by unSafeLazy {
         Observable.just(listOf(
-                Budget(name = "Daily life", price = 2000f),
-                Budget(name = "Transport", price = 1000f),
-                Budget(name = "Shopping", price = 500f),
-                Budget(name = "Utility", price = 200f))
+                Budget(name = "Daily life", income = 2000f, outcome = 50f),
+                Budget(name = "Transport", income = 1000f, outcome = 199f),
+                Budget(name = "Shopping", income = 500f, outcome = 29f),
+                Budget(name = "Utility", income = 200f, outcome = 29f))
         )
     }
+
 
 }

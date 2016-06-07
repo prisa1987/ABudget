@@ -12,9 +12,15 @@
             android:name=".view.AllBudgetsActivity"
             android:label="YourAppName">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/TWTheme">
         </activity>
     </application>
 

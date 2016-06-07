@@ -234,8 +234,12 @@
     </style>
 
     <style name="TWTextAppearance.White.Button">
-    <item name="android:textSize">@dimen/bt_text_size</item>
-    <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">@dimen/bt_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
+
+    <style name="TWTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="TWTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
 </resources>

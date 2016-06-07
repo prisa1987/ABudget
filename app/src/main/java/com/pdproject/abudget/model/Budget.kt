@@ -4,6 +4,7 @@ class Budget (
 
     var id: String = ObjectId.get().toHexString(),
     var name: String = "",
-    var price: Float = 0f
+    var income: Float = 0f,
+    var outcome: Float = 0f
 
 )

@@ -28,5 +28,6 @@
     <dimen name="avatar_small">36dp</dimen>
     <dimen name="avatar_normal">48dp</dimen>
     <dimen name="avatar_large">72dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
 
 </resources>
