@@ -17,5 +17,225 @@
 
     </style>
 
+    <!--================================================================================-->
+    <!--region TextAppearance-->
+    <!--================================================================================-->
+
+    <style name="TWTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@drawable/text_primary_color</item>
+        <item name="android:textSize">@dimen/body_text_size</item>
+    </style>
+
+    <style name="TWTextAppearance.Primary">
+        <item name="android:textColor">@drawable/text_primary_color</item>
+    </style>
+
+    <style name="TWTextAppearance.Primary.HeadLine">
+        <item name="android:textSize">@dimen/headline_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="TWTextAppearance.Primary.Title">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.Primary.Tabs">
+        <item name="android:textSize">@dimen/tabs_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TWTextAppearance.Primary.SubHeader">
+        <item name="android:textSize">@dimen/sub_header_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TWTextAppearance.Primary.Body">
+        <item name="android:textSize">@dimen/body_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.Primary.SubBody">
+        <item name="android:textSize">@dimen/sub_body_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.Primary.Menu">
+        <item name="android:textSize">@dimen/menu_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.Primary.Caption">
+        <item name="android:textSize">@dimen/caption_text_size</item>
+    </style>
+
+    <style name="TWTextAppearance.Primary.SubCaption">
+        <item name="android:textSize">@dimen/sub_caption_text_size</item>
+    </style>
+
+    <style name="TWTextAppearance.Primary.Button">
+        <item name="android:textSize">@dimen/bt_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TWTextAppearance.Secondary">
+        <item name="android:textColor">@drawable/text_secondary_color</item>
+    </style>
+
+    <style name="TWTextAppearance.Secondary.HeadLine">
+        <item name="android:textSize">@dimen/headline_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="TWTextAppearance.Secondary.Title">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.Secondary.Tabs">
+        <item name="android:textSize">@dimen/tabs_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TWTextAppearance.Secondary.SubHeader">
+        <item name="android:textSize">@dimen/sub_header_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TWTextAppearance.Secondary.Body">
+        <item name="android:textSize">@dimen/body_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.Secondary.SubBody">
+        <item name="android:textSize">@dimen/sub_body_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.Secondary.Menu">
+        <item name="android:textSize">@dimen/menu_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.Secondary.Caption">
+        <item name="android:textSize">@dimen/caption_text_size</item>
+    </style>
+
+    <style name="TWTextAppearance.Secondary.SubCaption">
+        <item name="android:textSize">@dimen/sub_caption_text_size</item>
+    </style>
+
+    <style name="TWTextAppearance.Secondary.Button">
+        <item name="android:textSize">@dimen/bt_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TWTextAppearance.Hint">
+        <item name="android:textColor">@color/gray200</item>
+    </style>
+
+    <style name="TWTextAppearance.Hint.HeadLine">
+        <item name="android:textSize">@dimen/headline_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="TWTextAppearance.Hint.Title">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.Hint.Tabs">
+        <item name="android:textSize">@dimen/tabs_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TWTextAppearance.Hint.SubHeader">
+        <item name="android:textSize">@dimen/sub_header_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TWTextAppearance.Hint.Body">
+        <item name="android:textSize">@dimen/body_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.Hint.SubBody">
+        <item name="android:textSize">@dimen/sub_body_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.Hint.Menu">
+        <item name="android:textSize">@dimen/menu_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.Hint.Caption">
+        <item name="android:textSize">@dimen/caption_text_size</item>
+    </style>
+
+    <style name="TWTextAppearance.Hint.SubCaption">
+        <item name="android:textSize">@dimen/sub_caption_text_size</item>
+    </style>
+
+    <style name="TWTextAppearance.Hint.Button">
+        <item name="android:textSize">@dimen/bt_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TWTextAppearance.White">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TWTextAppearance.White.HeadLine">
+        <item name="android:textSize">@dimen/headline_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="TWTextAppearance.White.Title">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.White.Tabs">
+        <item name="android:textSize">@dimen/tabs_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TWTextAppearance.White.SubHeader">
+        <item name="android:textSize">@dimen/sub_header_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TWTextAppearance.White.Body">
+        <item name="android:textSize">@dimen/body_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.White.SubBody">
+        <item name="android:textSize">@dimen/sub_body_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.White.Menu">
+        <item name="android:textSize">@dimen/menu_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TWTextAppearance.White.Caption">
+        <item name="android:textSize">@dimen/caption_text_size</item>
+    </style>
+
+    <style name="TWTextAppearance.White.SubCaption">
+        <item name="android:textSize">@dimen/sub_caption_text_size</item>
+    </style>
+
+    <style name="TWTextAppearance.White.Button">
+    <item name="android:textSize">@dimen/bt_text_size</item>
+    <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
 
 </resources>
