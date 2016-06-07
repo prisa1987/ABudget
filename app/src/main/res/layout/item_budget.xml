@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              xmlns:tool="http://schemas.android.com/tools"
+              android:orientation="vertical">
 
     <TextView
         android:id="@+id/tvPercent"
@@ -11,7 +12,7 @@
         android:layout_margin="10dp"
         android:background="@drawable/circle_amber_bg"
         android:gravity="center"
-        android:text="50%"
+        tool:text="50%"
         android:textAppearance="@style/TWTextAppearance.Primary.HeadLine" />
 
     <TextView
@@ -19,11 +20,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:text="2000THB" />
+        tool:text="2000" />
 
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Daily life"/>
+        tool:text="Daily life"/>
+
 </LinearLayout>

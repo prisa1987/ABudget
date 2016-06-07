@@ -29,6 +29,7 @@ abstract class BaseActivity : AppCompatActivity() {
 
         savedInstanceState?.let { handleSavedInstanceState(it) }
         intent?.let { handleInten(it) }
+        setUpUI()
     }
 
     override fun onStart() {
