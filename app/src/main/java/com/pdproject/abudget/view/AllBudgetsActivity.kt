@@ -1,7 +1,8 @@
-package com.pdproject.abudget
+package com.pdproject.abudget.view
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.pdproject.abudget.R
 
 class AllBudgetsActivity : AppCompatActivity() {
 

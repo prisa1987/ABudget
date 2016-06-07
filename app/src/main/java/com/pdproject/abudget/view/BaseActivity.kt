@@ -1,4 +1,4 @@
-package com.pdproject.abudget
+package com.pdproject.abudget.view
 
 import android.content.Intent
 import android.os.Bundle

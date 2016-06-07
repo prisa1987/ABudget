@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/TWTheme">
         <activity
-            android:name=".AllBudgetsActivity"
+            android:name=".view.AllBudgetsActivity"
             android:label="YourAppName">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
