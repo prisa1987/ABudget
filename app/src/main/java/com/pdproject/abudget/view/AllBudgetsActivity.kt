@@ -11,6 +11,7 @@ import com.pdproject.abudget.R
 import com.pdproject.abudget.model.Budget
 import com.pdproject.abudget.viewModel.AllBudgetsViewHolderViewModel
 import com.pdproject.abudget.viewModel.AllBudgetsViewModel
+import com.taskworld.kxandroid.alert
 import com.taskworld.kxandroid.unSafeLazy
 import kotlinx.android.synthetic.main.activity_all_budgets.*
 import kotlinx.android.synthetic.main.item_budget.view.*
@@ -36,6 +37,12 @@ class AllBudgetsActivity : BaseActivity() {
                     viewHolder.viewModel.bindTo(item)
                     viewHolder.setItem()
                 })
+    }
+
+    //======================================
+    // Create Budget
+    //======================================
+    fun addBudget() {
     }
 
     //======================================

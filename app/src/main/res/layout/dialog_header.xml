@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
-
-</LinearLayout>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:id="@+id/tvDialogTitle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/teal400"
+          android:gravity="center"
+          android:padding="@dimen/base_dialog_fragment_header_text_padding"
+          android:textAppearance="@style/TWTextAppearance.White.Title"
+          android:visibility="gone"
+          tools:text="TEST" />
